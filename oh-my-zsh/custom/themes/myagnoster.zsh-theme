@@ -313,6 +313,7 @@ prompt_dir() {
 }
 
 # Virtualenv: current working virtualenv
+export VIRTUAL_ENV_DISABLE_PROMPT=1
 prompt_virtualenv() {
   if [ -n "$CONDA_DEFAULT_ENV" ]; then
     prompt_segment magenta $CURRENT_FG "🐍 $CONDA_DEFAULT_ENV"
@@ -363,6 +364,7 @@ prompt_terraform() {
 build_prompt() {
   RETVAL=$?
   prompt_status
+  echo ""
   prompt_virtualenv
   prompt_aws
   prompt_terraform
@@ -374,4 +376,4 @@ build_prompt() {
   prompt_end
 }
 
-PROMPT=$'\n%{%f%b%k%}$(build_prompt) '
+PROMPT=$'%{%f%b%k%}$(build_prompt) '
