@@ -3,6 +3,15 @@
 ## uv, ruff etc
 source "$HOME/.local/bin/env"
 
+## python as global default interpreter with default packages
+case ":${PATH}:" in
+    *:"/Library/Frameworks/Python.framework/Versions/3.14/bin":*)
+        ;;
+    *)
+        export PATH="/Library/Frameworks/Python.framework/Versions/3.14/bin:$PATH"
+        ;;
+esac
+
 ## cargo, rustc, rustup, rustfmt etc
 source "$HOME/.cargo/env"
 
@@ -15,15 +24,11 @@ case ":${PATH}:" in
         ;;
 esac
 
-# ## postgres, psql etc
-# case ":${PATH}:" in
-#     *:"/opt/homebrew/opt/postgresql@18/bin":*)
-#         ;;
-#     *)
-#         export PATH="/opt/homebrew/opt/postgresql@18/bin:$PATH"
-#         ;;
-# esac
-
-# ## brew managed global python alias
-# alias py=/opt/homebrew/bin/python3
-# alias pip=/opt/homebrew/bin/pip3
+## postgres, psql etc
+case ":${PATH}:" in
+    *:"/opt/homebrew/opt/postgresql@18/bin":*)
+        ;;
+    *)
+        export PATH="/opt/homebrew/opt/postgresql@18/bin:$PATH"
+        ;;
+esac

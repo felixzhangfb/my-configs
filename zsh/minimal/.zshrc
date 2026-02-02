@@ -28,5 +28,10 @@ compinit
 
 ## Set custom aliases
 alias l="ls -haliF"
+### shadowsocks
 alias sss="export {HTTP,HTTPS}_PROXY=http://127.0.0.1:1087;export NO_PROXY=localhost,127.0.0.1,::1"
 alias uss="unset {HTTP,HTTPS,NO}_PROXY"
+### global python alias
+alias python=/Library/Frameworks/Python.framework/Versions/3.14/bin/python3
+alias py=/Library/Frameworks/Python.framework/Versions/3.14/bin/python3
+alias pip=/Library/Frameworks/Python.framework/Versions/3.14/bin/pip3
