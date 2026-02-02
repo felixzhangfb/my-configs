@@ -35,3 +35,24 @@ alias uss="unset {HTTP,HTTPS,NO}_PROXY"
 alias python=/Library/Frameworks/Python.framework/Versions/3.14/bin/python3
 alias py=/Library/Frameworks/Python.framework/Versions/3.14/bin/python3
 alias pip=/Library/Frameworks/Python.framework/Versions/3.14/bin/pip3
+
+
+## Set postgres functions
+start_pg() {
+    /opt/homebrew/opt/postgresql@18/bin/pg_ctl \
+        -D /opt/homebrew/var/postgresql@18 \
+        -l /opt/homebrew/var/postgresql@18/server.log \
+        start
+}
+
+stop_pg() {
+    /opt/homebrew/opt/postgresql@18/bin/pg_ctl \
+        -D /opt/homebrew/var/postgresql@18 \
+        stop
+}
+
+status_pg() {
+    /opt/homebrew/opt/postgresql@18/bin/pg_ctl \
+        -D /opt/homebrew/var/postgresql@18 \
+        status
+}
