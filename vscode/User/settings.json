@@ -1,0 +1,87 @@
+{
+  "[css]": {
+    "editor.tabSize": 2
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.tabSize": 2
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.tabSize": 2
+  },
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.tabSize": 2
+  },
+  "[vue]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "Vue.volar",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "editor.fontFamily": "'Sarasa Term SC', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.linkedEditing": true,
+  "editor.renderFinalNewline": "dimmed",
+  "editor.unicodeHighlight.allowedLocales": {
+    "zh-hans": true
+  },
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "git.openRepositoryInParentFolders": "always",
+  "html.completion.attributeDefaultValue": "singlequotes",
+  "html.format.wrapAttributes": "force-expand-multiline",
+  "javascript.format.semicolons": "remove",
+  "javascript.preferences.quoteStyle": "single",
+  "notebook.codeActionsOnSave": {
+    "notebook.source.fixAll": "explicit",
+    "notebook.source.organizeImports": "explicit"
+  },
+  "notebook.formatOnSave.enabled": true,
+  "notebook.insertFinalNewline": true,
+  "notebook.lineNumbers": "on",
+  "nuxtr.defaultPackageManager": "pnpm",
+  "nuxtr.vueFiles.style.alwaysScoped": true,
+  "nuxtr.vueFiles.style.defaultLanguage": "scss",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.defaultInterpreterPath": "python",
+  "ruff.nativeServer": "on",
+  "scss.lint.unknownAtRules": "ignore",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.profiles.osx": {
+    "zsh": {
+      "args": [
+        "-l"
+      ],
+      "path": "/bin/zsh"
+    }
+  },
+  "typescript.format.semicolons": "remove",
+  "typescript.preferences.quoteStyle": "single",
+  "vue.autoInsert.dotValue": true,
+  "vue.editor.focusMode": false,
+  "vue.format.wrapAttributes": "force-expand-multiline",
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "none"
+}
