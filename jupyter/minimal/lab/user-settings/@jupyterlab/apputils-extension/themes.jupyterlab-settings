@@ -1,0 +1,14 @@
+{
+    "theme-scrollbars": true,
+    "theme": "JupyterLab Light",
+    "adaptive-theme": false,
+    "preferred-light-theme": "JupyterLab Light",
+    "preferred-dark-theme": "JupyterLab Dark",
+    "overrides": {
+        "code-font-family": "Sarasa Term SC",
+        "code-font-size": null,
+        "content-font-size1": null,
+        "ui-font-family": null,
+        "ui-font-size1": null
+    }
+}

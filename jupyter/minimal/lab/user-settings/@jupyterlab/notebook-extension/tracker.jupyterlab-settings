@@ -1,0 +1,69 @@
+{
+    "codeCellConfig": {
+        "autoClosingBrackets": true,
+        "codeFolding": true,
+        "highlightActiveLine": true,
+        "highlightTrailingWhitespace": true,
+        "lineNumbers": true,
+        "customStyles": {
+            "fontFamily": "Sarasa Term SC",
+            "fontSize": null,
+            "lineHeight": null
+        }
+    },
+    "markdownCellConfig": {
+        "autoClosingBrackets": true,
+        "codeFolding": true,
+        "highlightActiveLine": true,
+        "highlightTrailingWhitespace": true,
+        "lineNumbers": true,
+        "matchBrackets": true,
+        "customStyles": {
+            "fontFamily": "Sarasa Term SC",
+            "fontSize": null,
+            "lineHeight": null
+        }
+    },
+    "rawCellConfig": {
+        "autoClosingBrackets": true,
+        "codeFolding": true,
+        "highlightActiveLine": true,
+        "highlightTrailingWhitespace": true,
+        "lineNumbers": true,
+        "matchBrackets": true,
+        "customStyles": {
+            "fontFamily": "Sarasa Term SC",
+            "fontSize": null,
+            "lineHeight": null
+        }
+    },
+    "enableKernelInitNotification": true,
+    "defaultCell": "code",
+    "autoStartDefaultKernel": false,
+    "showInputPlaceholder": true,
+    "inputHistoryScope": "global",
+    "kernelShutdown": false,
+    "autoRenderMarkdownCells": true,
+    "scrollPastEnd": true,
+    "recordTiming": true,
+    "overscanCount": 1,
+    "maxNumberOutputs": 50,
+    "scrollHeadingToTop": true,
+    "showEditorForReadOnlyMarkdown": true,
+    "kernelStatus": {
+        "showOnStatusBar": false,
+        "showProgress": true,
+        "showJumpToRecentExecutionButton": true
+    },
+    "documentWideUndoRedo": false,
+    "showHiddenCellsButton": true,
+    "renderingLayout": "default",
+    "sideBySideLeftMarginOverride": "10px",
+    "sideBySideRightMarginOverride": "10px",
+    "sideBySideOutputRatio": 1,
+    "windowingMode": "contentVisibility",
+    "accessKernelHistory": false,
+    "addExtraLineOnCellMerge": true,
+    "showMinimap": true,
+    "useSystemClipboardForCells": false
+}

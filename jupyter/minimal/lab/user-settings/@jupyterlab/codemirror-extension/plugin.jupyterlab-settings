@@ -1,0 +1,13 @@
+{
+    "defaultConfig": {
+        "autoClosingBrackets": true,
+        "codeFolding": true,
+        "highlightActiveLine": true,
+        "highlightTrailingWhitespace": true,
+        "customStyles": {
+            "fontFamily": "Sarasa Term SC",
+            "fontSize": null,
+            "lineHeight": null
+        }
+    }
+}
